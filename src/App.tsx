@@ -107,7 +107,7 @@ function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black mb-6 leading-tight"
+            className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black mb-6 leading-tight"
           >
             <span className="bg-gradient-to-r from-purple-400 to-purple-300 bg-clip-text text-transparent">CASH</span> IN WITH <span className="bg-gradient-to-r from-purple-400 to-purple-300 bg-clip-text text-transparent">CONFIDENCE</span> WITH<br />
             OUR PATENTED <span className="text-white">VSL-SYSTEM</span><span className="text-xs sm:text-sm align-super text-purple-400">™</span>
@@ -205,9 +205,9 @@ function App() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-5xl md:text-6xl font-black mb-6 tracking-wider">
-              <span className="bg-gradient-to-r from-purple-400 to-purple-300 bg-clip-text text-transparent">OUR RETURNS</span>
-            </h2>
+                          <h2 className="font-display text-5xl md:text-6xl font-black mb-6 tracking-wider">
+                <span className="bg-gradient-to-r from-purple-400 to-purple-300 bg-clip-text text-transparent">OUR RETURNS</span>
+              </h2>
             <p className="text-xl text-gray-300">Real client results from our VSL-SYSTEM™</p>
           </motion.div>
 
@@ -288,7 +288,7 @@ function App() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
               OUR <span className="bg-gradient-to-r from-purple-400 to-purple-300 bg-clip-text text-transparent">VSL-SYSTEM™</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-4 sm:mx-auto">
@@ -381,7 +381,7 @@ function App() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
               REAL MEMBERS, <span className="bg-gradient-to-r from-purple-400 to-purple-300 bg-clip-text text-transparent">REAL PROFITS</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-300 px-4">See what our members are saying about their success</p>
@@ -429,7 +429,7 @@ function App() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
               Get Your <span className="bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent">All-Access Pass</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4">
@@ -495,7 +495,7 @@ function App() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
               FREQUENTLY <span className="bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent">ASKED</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-300 px-4">Everything you need to know about our service</p>
@@ -550,7 +550,7 @@ function App() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6">
               START YOUR <span className="bg-gradient-to-r from-purple-400 to-purple-300 bg-clip-text text-transparent">WINNING JOURNEY</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto px-4">
